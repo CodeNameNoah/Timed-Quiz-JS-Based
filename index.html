@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="./assets/style.css" />
     <!-- link to use Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Symbols&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+Symbols&display=swap" />
     <title>Timed Quiz!</title>
 </head>
 
@@ -56,7 +56,17 @@
                 <p id="answerD" class="choice-text" data-number="4">Choice</p>
             </article>
         </section>
-
+        <section id="end" class="flex-center flex-column hidden">
+            <h1 id="finalScore">0</h1>
+            <form class="end-form-container">
+                <h2 id="end-text">Enter your initials below to save your score!</h2>
+                <input type="text" name="name" id="username" placeholder="Enter your initials"></input>
+                <button class="btn" id="saveScoreBtn" type="submit">Save</button>
+                <button id="retake-quiz" class="btn">Retake Quiz</button>
+            </form>
+        </section>
+    </div>
+    <script src="./assets/index.js"></script>
 </body>
 
 </html>
