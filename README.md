@@ -22,7 +22,7 @@ Overall, this quiz application is an excellent example of my proficiency in HTML
 
 ## Links
 
-- Link to live application
+- Link to live application https://codenamenoah.github.io/Timed-Quiz-JS-Based/
 
 ---
 
@@ -32,7 +32,7 @@ Overall, this quiz application is an excellent example of my proficiency in HTML
 
 1. Click on the green code button and copy the link for the SSH key.
 2. Once clip-boarded load up a command line interface and change directory to one of your preference
-3. Enter in the command `git clone git@github.com:CodeNameNoah/Random-Password-Generator.git`
+3. Enter in the command `git clone git@github.com:CodeNameNoah/Timed-Quiz-JS-Based.git`
 4. Enter your protected SSH password
 5. Enjoy!
 
@@ -65,9 +65,13 @@ Overall, this quiz application is an excellent example of my proficiency in HTML
 
 * https://www.youtube.com/watch?v=
 
-- Guide on querySelector Method and Usages
+- Guide On uerySelector Method and Usages
 
 * https://www.youtube.com/watch?v=3oOKAJTD2F8
+
+- Amazing Guide On Gradient Texts
+
+* https://www.youtube.com/watch?v=-6Yb9kpSbDk
 
 ## License
 
