@@ -15,7 +15,7 @@
     <div class="container">
         <!-- Site-on-Load Section -->
         <section id="home" class="flex-column flex-center">
-            <h1>Ready To Play CODE QUIZ?</h1>
+            <h1>Ready To Start This Quiz?</h1>
             <button id="begin-quiz" class="btn">Begin Quiz</button>
         </section>
         <!-- Quiz Main Section -->
@@ -38,7 +38,7 @@
                 </div>
             </header>
             <!-- Quiz Choices Section -->
-            <h2 id="question">What is the answer to this question?</h2>
+            <h2 id="question">Choose the correct answer</h2>
             <article class="choice-container">
                 <p class="choice-letter">A</p>
                 <p id="answerA" class="choice-text" data-number="1">Choice</p>
@@ -59,12 +59,15 @@
         <section id="end" class="flex-center flex-column hidden">
             <h1 id="finalScore">0</h1>
             <form class="end-form-container">
-                <h2 id="end-text">Enter your initials below to save your score!</h2>
+                <h2 id="end-text">Enter initials below to save your score</h2>
                 <input type="text" name="name" id="username" placeholder="Enter your initials"></input>
                 <button class="btn" id="saveScoreBtn" type="submit">Save</button>
                 <button id="retake-quiz" class="btn">Retake Quiz</button>
             </form>
         </section>
+    </div>
+    <div id="footer">
+        <p>Built with JavaScript, HTML, and CSS by Noah Hoang</p>
     </div>
     <script src="./assets/index.js"></script>
 </body>
